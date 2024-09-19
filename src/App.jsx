@@ -15,19 +15,21 @@ export function App () {
   const { iniciarBuscar, character, cargando, onChangePage, page } = usePersonajes({ query })
 
   return (
-    <div className='page'>
-      <header>
-        <Titulo />
-        <SubTitulo />
-        <Formulario setQuery={setQuery} iniciarBuscar={iniciarBuscar} query={query} />
-        {errores && (<Errores dataError={errores} />)}
-      </header>
-      <main>
-        {cargando && (<Spinner />)}
-        <Personajes character={character} />
-      </main>
-      <Footer />
-      <Paginacion onChangePage={onChangePage} page={page} />
-    </div>
+    <>
+      <div className='page'>
+        <header>
+          <Titulo />
+          <SubTitulo />
+          <Formulario setQuery={setQuery} iniciarBuscar={iniciarBuscar} query={query} />
+          {errores && (<Errores dataError={errores} />)}
+        </header>
+        <main>
+          {cargando && (<Spinner />)}
+          <Personajes character={character} />
+        </main>
+        <Paginacion onChangePage={onChangePage} page={page} />
+        <Footer />
+      </div>
+    </>
   )
 }
