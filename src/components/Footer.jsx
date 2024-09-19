@@ -16,7 +16,7 @@ export function Footer () {
         target='_blank'
         rel='noreferrer'
       >
-        <h5>WhatsApp: +54 9 381 580-7972</h5>
+        <h5>Mandame un WhatsApp</h5>
       </a>
       <a
         style={titleStyle}
@@ -24,7 +24,7 @@ export function Footer () {
         target='_blank'
         rel='noreferrer'
       >
-        <h5>Linkedin: José María Asial Diaz</h5>
+        <h5>Buscame en Linkedin</h5>
       </a>
       <a
         style={titleStyle}
@@ -32,7 +32,7 @@ export function Footer () {
         target='_blank'
         rel='noreferrer'
       >
-        <h5>Email: jomaasial@gmail.com</h5>
+        <h5>Mandame un Email: jomaasial@gmail.com</h5>
       </a>
       <h5>Todos los derechos reservados © {fecha} Copyright</h5>
     </footer>
