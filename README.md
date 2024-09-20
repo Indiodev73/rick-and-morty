@@ -22,4 +22,4 @@ URL='https://rickandmortyapi.com/api/character'
 
 URL = 'https://rickandmortyapi.com/api/character/?page=2&name=morty' 
 
-[![5.png](https://i.postimg.cc/nV9hCCFr/5.png)](https://postimg.cc/rzckHyt2)
+[![55.png](https://i.postimg.cc/Wpgpjzwv/55.png)](https://postimg.cc/mhZWybnX)
