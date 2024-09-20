@@ -5,5 +5,10 @@ Se usa una variable de entorno (.env) para guardar la URL de la API y así poder
 Se usa hooks personalizados para poder sacar la lógica fuera de los componentes.
 Se usa los hooks: useState, useEffect y useRef para el desarrollo de la aplicación.
 
+## Tecnologia usada:
+ "@vitejs/plugin-react": "4.3.1",
+ "react": "18.3.1",
+ "react-dom": "18.3.1",
+ "react-spinners": "^0.14.1"
 
 [![55.png](https://i.postimg.cc/Wpgpjzwv/55.png)](https://postimg.cc/mhZWybnX)
