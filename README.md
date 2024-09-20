@@ -7,6 +7,7 @@ Se usa los hooks: useState, useEffect y useRef para el desarrollo de la aplicaci
 
 ## Tecnologia usada:
  "@vitejs/plugin-react": "4.3.1",
+ </br>
  "react": "18.3.1",
  "react-dom": "18.3.1",
  "react-spinners": "^0.14.1"
